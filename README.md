@@ -24,4 +24,4 @@ Oh yeah, one last thing I'd like to say... please... don't forget to submit a pu
 
 ============
 Copyright (c) 2009, 2010, 2011, 2012, 2013, Jerry W Jackson
-All rights reserved.
+<br />All rights reserved.
