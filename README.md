@@ -1,84 +1,27 @@
 ## Introduction
 
-Having searched for many years for a usable Linux window manager that both 
-appealed to my sense of aesthetics and had at least some of the features I 
-feel necessary for a 'proper' WM; I only came across one which [at least 
-partially] fit the bill. `Mavosxwm` was the creation of `Martin Vollrathson` 
-and hadn't been updated in any way for a long time at that point. After 
-obtaining permission from him, I forked Mavosxwm to use in the creation of 
-`koWm`. I will be keeping the tabbed interface, the theming mechanism, and 
-most of the event-handling code; but I believe a change of language is in 
-order before implementing additions and changes to the existing codebase. My 
-first thoughts were to use Python as my base language; now I'm leaning towards 
-something Ruby-flavored. To build this wm I have decided to, first, build a set
-of six of a final twelve desktop libraries so that I may make this window 
-manager as extensible as it cares to be. It will be named `koWm` [ sounds like
-kohm or comb ] and will be the first application built using the `kobol` 
-collection of libraries found at libs/kobol.
+Having searched for many years for a usable Linux window manager that both appealed to my sense of aesthetics and had at least some of the features I feel necessary for a 'proper' WM; I only came across one which, at least partially, fit the bill. `Mavosxwm` was the creation of `Martin Vollrathson` and hadn't been updated in any way for a long time at that point. After obtaining permission from him, I forked Mavosxwm v0.2.1 to use as the base from which I will write `koWm`. I will be keeping the tabbed interface, the theming mechanism, and most of the event-handling code.
 
-## Applications
+## kowm
+`kowm` ( /kōm/ ) never wanted to be anything more when she grew up than the only X window manager that even I would take home to Mom. kowm has decided that 'extensible simplicity' is the wave of the future; and we tend to agree. 
 
-Application naming preference 
-would be this: 
--	all apps developed using the cyrannus methodology need to start with a 
-	lower case `k` and should make a reasonable attempt to capitalize one 
-	other letter from the appname in it's place. Bonus points if that capital
-	letter happens to be a `W` to honor the brother I lost in childhood.
+## kowm-core
+`kowm-core` is made up of six modular desktop libraries; five handle the basic features that make for a beautifully simple window manager and the sixth is a framework for building, attaching, and manipulating new modular extensions. Since speed is of the essence here, we're planning on writing kowm-core in C++.
 
-### `koWm`
-The first related app to be packaged with kobol will be `koWm`, a modular and 
-extensible window manager for Xorg based on xcb rather than the archaic xlib. 
+## kowm-opts
+Additionally, there are currently six additional modular libraries planned which, along with any additional ones we think are needed, will make up `kowm-opts`. These libraries will most likely be written in Ruby; however additional bindings for Python and Lua are on the RoadMap
 
-### `kWomo`
-I also have this crazy idea for an audio application named `kWomo`, as in Perry 
-Cuomo.
+## kowm-apps
+Finally, we're planning other apps the we deem useful to the overall desktop experience. These will reside within the `kowm-apps` project. kowm-apps can use any language for which exists a language binding or a new one if you or a friend have the knowledge to write one; don't fret too much, it's not a difficult task. That being said, we definitely are expecting the first few to be all Ruby 
 
-### `koWala`
-Not sure what to make with this name; but I do dig it...
+## So, to recap
+-	Want to make a new application or extension for kowm?
+	-	Simply, write your new module in any of the available language bindings already written. 
+-	No binding for the language you prefer to code in?
+	-	Well then, write yourself a binding module for that language and continue on.
 
-## Libraries
-
-### `kobol` (Collection)
-
-`kobol` is a modular collection of twelve-plus desktop libraries and thier related
-apps; it aims to be useful as a toolkit for writing massively modular graphical 
-applications and aims to be truly OS-agnostic in it's execution. It is properly
-referred to beginning with a lower-case `k`. 
-
-Naming of the twelve libraries within kobol will follow the convention of naming 
-each of the libraries for one of the twelve colonies of man from the original 
-Battlestar Gallactica series; circa 1978. 
-
--   Core libraries used for basic functionality of the original intended use (`koWm`) 
-are represented by inner colony names. Core libraries are almost always coded in C++.
-	-	`caprica`: low-level window management 
-	-	`gemoni`: low-level network management 
-	-	`leonis`: low-level graphics
-	-	`sagitara`: low-level module framework
-	-	`piscera`: low-level system menuing
-	-	`virgon`: low-level system translation 
--   Module libraries generally comprise one extension module to Core items. 
-Outer colony names are used for middle level libraries which can extend on this 
-vein. Modules may be written in either C++, Ruby, or a combination of the two.
-	-	`aeries`: power management module
-	-	`aquarus`: 
-	-	`libris`:
-	-	`orion`: 
-	-	`scorpion`:
-	-	`taura`:
--   Extras are libraries that, while very useful, aren't really part of the 
-window manager. Unaligned colonies will be namesake to those that are considered 
-useful for building modular X applications to use alongside `koWm`. These 'extra'
-libraries are generally written in Ruby unless a lower-level abstraction is required.
-	-	`hestia`:
-	-	`khronos`: library for all things time-related, including ntp
-	-	`pallas`:
-	-	`persephone`:
-	-	`phoebe`:
-	-	`styx`: 
-	-	`thanatos`: sleep and hibernation library
-	-	`troy`: 
+Oh yeah, one last thing I'd like to say... please... don't forget to submit a pull request once you're done, so others can enjoy the new language, application, or extension you just made possible.
 
 ============
-Copyright (c) 2011, Jerry W Jackson
+Copyright (c) 2009, 2010, 2011, 2012, 2013, Jerry W Jackson
 All rights reserved.
