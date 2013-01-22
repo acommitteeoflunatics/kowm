@@ -4,10 +4,12 @@ only X window manager that even I would take home to Mom. kowm has decided
 that 'extensible simplicity' is the wave of the future; and we tend to agree.
 
 ## kowm-opts
-komw-opts /kōm-äpts/ currently has six additional modular libraries planned; 
-with any others we think are needed, will make up kowm-opts. These libraries 
-will most likely be written in Ruby; however additional bindings for Python 
-and Lua are currently on the RoadMap
+komw-opts /kōm-äpts/ currently has six additional modular libraries planned. 
+These libraries - along with any others we think are needed - will provide 
+additional services that, while not absolutely necessary, would probably be 
+appreciated by the end user. These libraries will most likely be written in 
+Ruby; however additional bindings for Python and Lua are currently on the 
+RoadMap.
 
 
 ## Requirements
