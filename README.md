@@ -9,7 +9,7 @@ Having searched for many years for a usable Linux window manager that both appea
 `kowm-core` is made up of six modular desktop libraries; five handle the basic features that make for a beautifully simple window manager and the sixth is a framework for building, attaching, and manipulating new modular extensions. Since speed is of the essence here, we're planning on writing kowm-core in C++.
 
 ## kowm-opts
-Additionally, there are currently six additional modular libraries planned which, along with any additional ones we think are needed, will make up `kowm-opts`. These libraries will most likely be written in Ruby; however additional bindings for Python and Lua are on the RoadMap
+komw-opts /kōm-äpts/ currently has six additional modular libraries planned. These libraries - along with any others we think are needed - will provide additional services that, while not absolutely necessary, would probably be appreciated by the end user. These libraries will most likely be written in Ruby; however additional bindings for Python and Lua are currently on the RoadMap.
 
 ## kowm-apps
 Finally, we're planning other apps the we deem useful to the overall desktop experience. These will reside within the `kowm-apps` project. kowm-apps can use any language for which exists a language binding or a new one if you or a friend have the knowledge to write one; don't fret too much, it's not a difficult task. That being said, we definitely are expecting the first few to be all Ruby 
