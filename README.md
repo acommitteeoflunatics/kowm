@@ -1,6 +1,12 @@
 ## Introduction
 
-Having searched for many years for a usable Linux window manager that both appealed to my sense of aesthetics and had at least some of the features I feel necessary for a 'proper' WM; I only came across one which, at least partially, fit the bill. `Mavosxwm` was the creation of `Martin Vollrathson` and hadn't been updated in any way for a long time at that point. After obtaining permission from him, I forked Mavosxwm v0.2.1 to use as the base from which I will write `koWm`. I will be keeping the tabbed interface, the theming mechanism, and most of the event-handling code.
+Having searched for many years for a usable Linux window manager that both appealed to my sense of aesthetics and had at least some of the features I feel necessary for a 'proper' WM; in all that time I only came across one which, at least partially, fit the bill. 
+
+`Mavosxwm` was the creation of `Martin Vollrathson` and hadn't been updated since sometime in 2003. After obtaining permission from him in 2007, I forked Mavosxwm v0.2.1 to use as the base from which I will write `koWm`. I will be keeping parts of the window interface, the theming mechanism, and some of the event-handling code; these bits are, even now, making their way into various locations in kowm-core.
+
+For the record, kowm itself stands for `Kobol's Own Window Manager`; in like manner all related icons, artwork, and documentation should reflect this. 
+
+The modules themselves are to be named for the twelve colonies of man and various non-aligned colonies from the original BattleStar Galactica, circa 1978-1979. 
 
 ## kowm
 `kowm` ( /kōm/ ) never wanted to be anything more when she grew up than the only X window manager that even I would take home to Mom. kowm has decided that 'extensible simplicity' is the wave of the future; and we tend to agree. 
