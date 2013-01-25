@@ -16,8 +16,8 @@ border: 1px solid black;
 }
 
 div#nav {
-  color:lightsteelblue;
-  background-color: dimgray;
+  color:dodgerblue;
+  background-color: silver;
   width: 900px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -42,7 +42,7 @@ img.noborder {
   border: 0 none;
 }
 a {
-  color:steelblue;
+  color:cornflowerblue;
   text-decoration:none;
   letter-spacing:1px;
 }
