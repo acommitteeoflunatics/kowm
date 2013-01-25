@@ -15,11 +15,10 @@ div#wrapper {
 }
 div#nav {
   color:silver;
-  background-color: slategrey;
   width: 900px;
   padding-top: 5px;
   padding-bottom: 5px;
-  border: 1px outset silver;
+  /*border: 1px outset silver;*/
   clear:both;
 }
 div#details {
