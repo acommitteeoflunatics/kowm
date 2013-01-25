@@ -21,7 +21,7 @@ The modules themselves are to be named for the twelve colonies of man and variou
 -  :virgo: virgon provides all remaining mid- and high-level 'window' management
 
 ## kowm-opts
-komw-opts /kōm-äpts/ currently has six additional modular libraries planned. These libraries - along with any others we think are needed - will provide additional services that, while not absolutely necessary, would probably be appreciated by the end user. These libraries will most likely be written in Ruby; however additional bindings for Python and Lua are currently on the RoadMap.
+kowm-opts /kōm-äpts/ currently has six additional modular libraries planned. These libraries - along with any others we think are needed - will provide additional services that, while not absolutely necessary, would probably be appreciated by the end user. These libraries will most likely be written in Ruby; however additional bindings for Python and Lua are currently on the RoadMap.
 -  :aries: aeries provides ...
 -  :aquarius: aquarus provides ...
 -  :libra: libris provides ...
@@ -53,5 +53,5 @@ Finally, we're planning other apps the we deem useful to the overall desktop exp
 Oh yeah, one last thing I'd like to say... please... don't forget to submit a pull request once you're done, so others can enjoy the new language, application, or extension you just made possible.
 
 ============
-Copyright (c) 2009, 2010, 2011, 2012, 2013, Jerry W Jackson
+Copyright (c) 2009-2013, Jerry W Jackson
 <br />All rights reserved.
