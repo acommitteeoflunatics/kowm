@@ -14,12 +14,12 @@ div#wrapper {
   border: 1px solid lavenderblush; 
 }
 div#nav {
-  color:aliceblue;
+  color:lavenderblush;
   width: 900px;
   padding-top: 5px;
   padding-bottom: 5px;
   border: 1px solid lavenderblush; 
-  border-top: none;
+  border-bottom: none;
 }
 div#details {
   margin-right:12%;
