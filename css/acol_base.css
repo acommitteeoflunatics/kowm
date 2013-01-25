@@ -11,15 +11,15 @@ div#wrapper {
   text-align: left; 
   margin: 0 auto; 
   width: 900px; 
-  border: 1px solid lavenderblush; 
+  ;border: 1px solid lavenderblush; 
 }
 div#nav {
   color:lavenderblush;
   width: 900px;
   padding-top: 5px;
   padding-bottom: 5px;
-  border: 1px solid lavenderblush; 
-  border-bottom: none;
+  ;border: 1px solid lavenderblush; 
+  ;border-bottom: none;
 }
 div#details {
   margin-right:12%;
