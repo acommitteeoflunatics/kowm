@@ -41,15 +41,15 @@ img.noborder {
   border: 0 none;
 }
 a {
-  color:cornflowerblue;
+  color:dodgerblue;
   text-decoration:none;
   letter-spacing:1px;
 }
 a:hover {
-  color:dodgerblue;
+  color:cornflowerblue;
 }
 a#current {
-  color:dodgerblue;
+  color:cornflowerblue;
 }
 #labels {
   float:left;
