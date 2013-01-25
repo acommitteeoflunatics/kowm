@@ -27,7 +27,7 @@ div#details {
   }
 div.footer {
   font-size:80%;
-  color:cornflowerblue;
+  color:cornsilk;
 }
 div.width {
   width:800px;
@@ -49,7 +49,7 @@ a:hover {
   color:cornsilk;
 }
 a#current {
-  color:cornflowerblue;
+  color:cornsilk;
 }
 #labels {
   float:left;
