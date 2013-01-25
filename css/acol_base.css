@@ -8,18 +8,19 @@ body {
   margin-left:12%;
 }
 div#wrapper { 
-text-align: left; 
-margin: 0 auto; 
-width: 900px; 
-border: 1px solid aliceblue; 
+  text-align: left; 
+  margin: 0 auto; 
+  width: 900px; 
+  border: 1px solid aliceblue; 
 }
 
 div#nav {
-  color:dodgerblue;
-  background-color: silver;
+  color:aliceblue;
   width: 900px;
   padding-top: 5px;
   padding-bottom: 5px;
+  border: 1px solid aliceblue; 
+
 }
 div#details {
   margin-right:12%;
