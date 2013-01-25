@@ -19,11 +19,18 @@ div#nav {
   padding-top: 5px;
   padding-bottom: 5px;
   border: 1px outset silver;
+  clear:both;
 }
 div#details {
   margin-right:12%;
   text-align:justify;
   }
+div.header {
+  width: 900px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color:silver;
+}
 div.footer {
   font-size:80%;
   color:silver;
