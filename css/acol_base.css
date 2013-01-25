@@ -16,6 +16,8 @@ border: 1px solid black;
 
 div#nav {
   color:lightsteelblue;
+  background-color: ivory;
+  width: 100%;
 }
 div#details {
   margin-right:12%;
@@ -23,7 +25,7 @@ div#details {
   }
 div.footer {
   font-size:80%;
-  color:peru;
+  color:cornflowerblue;
 }
 div.width {
   width:800px;
@@ -37,15 +39,15 @@ img.noborder {
   border: 0 none;
 }
 a {
-  color:peru;
+  color:steelblue;
   text-decoration:none;
   letter-spacing:1px;
 }
 a:hover {
-  color:burlywood;
+  color:cornflowerblue;
 }
 a#current {
-  color:burlywood;
+  color:cornflowerblue;
 }
 #labels {
   float:left;
