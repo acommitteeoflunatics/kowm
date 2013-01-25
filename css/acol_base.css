@@ -30,6 +30,7 @@ div.header {
   padding-top: 5px;
   padding-bottom: 5px;
   color:silver;
+  border: none;
 }
 div.footer {
   font-size:80%;
