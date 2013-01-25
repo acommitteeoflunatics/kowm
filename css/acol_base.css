@@ -46,10 +46,10 @@ a {
   letter-spacing:1px;
 }
 a:hover {
-  color:cornflowerblue;
+  color:dodgerblue;
 }
 a#current {
-  color:cornflowerblue;
+  color:dodgerblue;
 }
 #labels {
   float:left;
