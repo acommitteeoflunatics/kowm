@@ -35,6 +35,10 @@ div.header {
 div.footer {
   font-size:80%;
   color:silver;
+  width: 900px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px outset silver;
 }
 div.width {
   width:800px;
