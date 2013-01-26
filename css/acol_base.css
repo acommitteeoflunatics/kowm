@@ -20,6 +20,8 @@ div#nav {
   /*border: 1px outset silver;*/
   clear:both;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto 
 }
 div#details {
   margin-right:12%;
