@@ -1,0 +1,19 @@
+<h2>kowm-opts</h2>
+<hr />
+<a href="http://kowm-opts.acommitteeoflunatics.com">kowm-opts</a> ( /kōm-äpts/ ) currently has six additional modular libraries planned. These libraries - along with any others we think are needed - will provide additional services that, while not absolutely necessary, would probably be appreciated by the end user. These libraries will most likely be written in Ruby; however additional bindings for Python and Lua are currently on the RoadMap.
+<br />
+<br />
+<h2>kowm-apps</h2>
+<hr />
+<a href="http://kowm-apps.acommitteeoflunatics.com">kowm-apps</a> ( /kōm-æps/ ) are, collectively, any apps written using the kowm libraries; these are usually intended to be optionally included with any working kowm-desktop if a user so desires. These will reside within the kowm-apps project. kowm-apps can use any language for which exists a language binding or a new one if you or a friend have the knowledge to write one; don't fret too much, it's not a difficult task. That being said, we definitely are expecting the first few to be all Ruby.
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<script src='http://gitlive.com/githublive.min.js'></script>
+<script>var GithubPush = {num_old:5,nodes:['acommitteeoflunatics/kowm']}</script>
+<div id='commits'></div>
+<br />
+<br />
