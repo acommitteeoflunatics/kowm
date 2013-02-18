@@ -39,6 +39,7 @@ Finally, we're planning other apps the we deem useful to the overall desktop exp
 ### Libraries
 
 -   `appsFiler` simple file manager that sees all filesystems as objects, to be opened, read from and written to.
+-   `apps3dFiler` similar to `appsFiler` and based upon it; but uses a 3d bird's-eye view. Fans of Jurassic Park and/or users of Irix will find it hauntingly familiar.
 
 ## So, to recap...
 -	Want to make a new application or extension for kowm?
