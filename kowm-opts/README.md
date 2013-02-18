@@ -12,16 +12,14 @@ Ruby; however additional bindings for Python and Lua are currently on the
 RoadMap.
 
 
-## Requirements
+### Requirements
 At present, the only requirements for kowm-opts is a properly configured kowm-core.
 
-## Libraries
--  :aries: aeries provides ...
--  :aquarius: aquarus provides ...
--  :libra: libris provides ...
--  :cancer: orion provides ...
--  :scorpius: scorpion provides ...
--  :taurus: taura provides ...
+
+### Libraries
+
+-   `optsDecor` gives access to advanced graphical toolkits from within kowm
+
 
 
 ============
