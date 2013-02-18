@@ -4,45 +4,41 @@ Having searched for many years for a usable Linux window manager that both appea
 
 `Mavosxwm` was the creation of `Martin Vollrathson` and hadn't been updated since sometime in 2003. After obtaining permission from him in 2007, I forked Mavosxwm v0.2.1 to use as the base from which I will write `koWm`. I will be keeping parts of the window interface, the theming mechanism, and some of the event-handling code; these bits are, even now, making their way into various locations in kowm-core.
 
-For the record, kowm itself stands for `Kobol's Own Window Manager`; in like manner all related icons, artwork, and documentation should reflect this. 
-
-The modules themselves are to be named for the twelve colonies of man and various non-aligned colonies from the original BattleStar Galactica, circa 1978-1979. 
-
 ## kowm
 `kowm` ( /kōm/ ) never wanted to be anything more when she grew up than the only X window manager that even I would take home to Mom. kowm has decided that 'extensible simplicity' is the wave of the future; and we tend to agree. 
 
+### Requirements
+Any kowm installation will require, at a bare minimum, the first eight 'core' libraries; other requirments will be made known closer to initial release.
+
 ## kowm-core
-`kowm-core` is made up of six modular desktop libraries; five handle the basic features that make for a beautifully simple window manager and the sixth is a framework for building, attaching, and manipulating new modular extensions. Since speed is of the essence here, we're planning on writing kowm-core in C++.
--  :capricorn: caprica provides low-level constructs shared by all 'windows'; including the root window.
--  :gemini: gemoni provide basic workspace management and functionality.
--  :leo: leonis provides the graphics subsystem from which all graphics toolkit modules can hook into and manipulate objects.
--  :sagittarius: sagitara provides a basic module structure, attachment points and shared asset management funtions.
--  :pisces: piscera provides automatic menu generation of the system menu, the desktop menu and the application menus.
--  :virgo: virgon provides all remaining mid- and high-level 'window' management
+kowm-core ( :speaker: /kōm-kôr/ ) is made up of eight modular desktop libraries; seven to handle the basic features that make for a beautifully simple window manager while the sixth is a framework for building, attaching, and manipulating new modular extensions. Since execution speed is of the essence here, we're planning on writing kowm-core in C++.
+
+### Libraries
+
+-   `baseAnnex` provides a basic module infrastructure and shared asset management funtions.
+-   `baseConsumer` provides stubs and mount points for baseAnnex modules.
+-   `baseDecor` provides a basic graphics subsystem from which all graphics toolkit modules can hook into and manipulate objects.
+-   `baseFare` provides automatic menu generation of the system menu, the desktop menu and the application menus.
+-   `baseFlaps` provides a robust tabbing mechanism
+-   `baseGear` provides simple constructs shared by all 'objects'; e.g. Spaces, Flaps and 'windows' (including the root window).
+-   `baseOverseer` provides advanced maniuplation of 'objects'; aka 'window' management.
+-   `baseSpaces` provide basic workspace management and functionality.
+
+All core libraries are to be coded in C++ unless a compelling case can be made against it.
 
 ## kowm-opts
 kowm-opts /kōm-äpts/ currently has six additional modular libraries planned. These libraries - along with any others we think are needed - will provide additional services that, while not absolutely necessary, would probably be appreciated by the end user. These libraries will most likely be written in Ruby; however additional bindings for Python and Lua are currently on the RoadMap.
--  :aries: aeries provides ...
--  :aquarius: aquarus provides ...
--  :libra: libris provides ...
--  :cancer: orion provides ...
--  :scorpius: scorpion provides ...
--  :taurus: taura provides ...
+
+### Libraries
+
+-   `optsDecor` gives access to advanced graphical toolkits from within kowm
 
 ## kowm-apps
 Finally, we're planning other apps the we deem useful to the overall desktop experience. These will reside within the `kowm-apps` project. kowm-apps can use any language for which exists a language binding or a new one if you or a friend have the knowledge to write one; don't fret too much, it's not a difficult task. That being said, we definitely are expecting the first few to be all Ruby.
--  :clock1: acheron provides ...
--  :clock2: erebos provides ...
--  :clock3: hestia provides ...
--  :clock4: icarus provides ...
--  :clock5: kronos provides ...
--  :clock6: ouranos provides ...
--  :clock7: pallas provides ...
--  :clock8: persephone provides ...
--  :clock9: phoebe provides ...
--  :clock10: styx provides ...
--  :clock11: thanatos provides ...
--  :clock12: troy provides ...
+
+### Libraries
+
+-   `appsFiler` simple file manager that sees all filesystems as objects, to be opened, read from and written to.
 
 ## So, to recap...
 -	Want to make a new application or extension for kowm?
