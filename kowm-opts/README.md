@@ -19,8 +19,7 @@ At present, the only requirements for kowm-opts is a properly configured kowm-co
 ### Libraries
 
 -   `optsDecor` gives access to advanced graphical toolkits from within kowm
-
-
+-   `optsLeapMotion` gives access to LeapMotion controller mechanisms from within kowm
 
 ============
 Copyright :copyright: 2009-2013, Jerry W Jackson

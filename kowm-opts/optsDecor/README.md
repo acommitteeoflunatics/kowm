@@ -1,0 +1,1 @@
+`optsDecor` allows the use and manipulation of graphical toolkits for and within kowm.
