@@ -5,7 +5,7 @@ Having searched for many years for a usable Linux window manager that both appea
 `Mavosxwm` was the creation of `Martin Vollrathson` and hadn't been updated since sometime in 2003. After obtaining permission from him in 2007, I forked Mavosxwm v0.2.1 to use as the base from which I will write `koWm`. I will be keeping parts of the window interface, the theming mechanism, and some of the event-handling code; these bits are, even now, making their way into various locations in kowm-core.
 
 ## kowm
-`kowm` ( /kōm/ ) never wanted to be anything more when she grew up than the only X window manager that even I would take home to Mom. kowm has decided that 'extensible simplicity' is the wave of the future; and we tend to agree. 
+`kowm` ( /kōm/ ) never wanted to be anything more when she grew up than the only X window manager that even I would take home to Mom. kowm has decided that 'extensible simplicity' is the wave of the future; and the members of the 'Committee' tend to agree. 
 
 ### Requirements
 Any kowm installation will require, at a bare minimum, the first eight 'core' libraries; other requirments will be made known closer to initial release.
